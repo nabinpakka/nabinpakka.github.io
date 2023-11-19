@@ -1,0 +1,14 @@
+@import '../assets/stylesheet/style.css';
+@import '../assets/stylesheet/home.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tooltip {
+    @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+    @apply visible z-50;
+}

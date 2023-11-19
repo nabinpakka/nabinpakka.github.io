@@ -1,0 +1,52 @@
+{
+  "name": "bibishan.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/bibishan-pandey/bibishan-pandey.github.io",
+  "scripts": {
+    "clean": "rimraf \"{node_modules,.next,.next-dev,out,.cache,.idea}\"",
+    "format": "prettier --write .",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "export": "next export",
+    "predeploy": "yarn build && yarn export",
+    "deploy": "gh-pages -d out",
+    "start": "next start",
+    "prepare": "husky install",
+    "lint": "next lint",
+    "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.0.8",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "cross-env": "^7.0.3",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "fslightbox-react": "^1.7.6",
+    "next": "13.4.12",
+    "nprogress": "^0.2.0",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-modal": "^3.16.1",
+    "sass": "^1.66.1",
+    "swiper": "^10.2.0",
+    "tailwindcss": "3.3.3",
+    "typeit-react": "^2.6.4",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/fslightbox-react": "^1.7.3",
+    "@types/nprogress": "^0.2.0",
+    "@types/react-modal": "^3.16.0",
+    "gh-pages": "^6.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "rimraf": "^5.0.1"
+  }
+}
