@@ -63,13 +63,6 @@ export default function Portfolio() {
             link: 'https://github.com/nabinpakka/Blockchain-Wallet'
         },
         {
-            title: 'News Crawler',
-            subTitle: 'Web crawler to extract news data from different news domains.',
-            img: 'assets/img/tt/1.gif',
-            type: 'Python web crawler',
-            link: 'https://github.com/nabinpakka/Crawler'
-        },
-        {
             title: 'ChatAppFirebase',
             subTitle: 'A Mobile chat application using firebase.',
             img: 'assets/img/firebaseChat.png',
