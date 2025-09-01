@@ -41,19 +41,27 @@ export default function Header() {
                             </a>
                         </li>
                         <li>
-                            <a data-scroll-nav={2} href="#services">
+                            <a data-scroll-nav={2} href="#portfolio">
                                 <span className="m-icon">
                                     <i className="bi-briefcase" />
                                 </span>
-                                <span className="m-text">Services</span>
+                                <span className="m-text">Portfolio</span>
                             </a>
                         </li>
                         <li>
-                            <a data-scroll-nav={3} href="#portfolio">
+                            <a data-scroll-nav={3} href="#services">
                                 <span className="m-icon">
                                     <i className="bi-columns" />
                                 </span>
-                                <span className="m-text">Portfolio</span>
+                                <span className="m-text">Certifications</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-scroll-nav={4} href="#awards">
+                                <span className="m-icon">
+                                    <i className="bi-columns" />
+                                </span>
+                                <span className="m-text">Awards</span>
                             </a>
                         </li>
                         {/* <li>

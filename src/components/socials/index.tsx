@@ -15,7 +15,12 @@ export default function SocialLinks() {
         {
             name: 'Email',
             icon: 'fas fa-envelope',
-            link: 'mailto:paknans89@gmail.com'
+            link: 'mailto:nabinpakka1@gmail.com'
+        },
+        {
+            name: 'Google Scholar',
+            icon: 'fas fa-user-graduate',
+            link: 'https://scholar.google.com/citations?user=4Q6TtJoAAAAJ&hl=en'
         },
         {
             name: 'WhatsApp',

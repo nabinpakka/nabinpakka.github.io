@@ -6,6 +6,7 @@ import Contact from '@app/components/contact';
 import Layout from '@app/components/layout/_layout';
 import Portfolio from '@app/components/portfolio';
 import Proficient from '@app/components/proficient';
+import Awards from '@app/components/awards';
 
 export default function Home() {
     return (
@@ -16,11 +17,17 @@ export default function Home() {
             <section id="about" data-scroll-index={1} className="section about-section gray-bg-1">
                 <AboutMe />
             </section>
-            <section id="portfolio" data-scroll-index={3} className="section portfolio-section bg-white">
+            {/*<section id="publications" data-scroll-index={2} className="section services-section">*/}
+            {/*    <Publications />*/}
+            {/*</section>*/}
+            <section id="portfolio" data-scroll-index={2} className="section portfolio-section bg-white">
                 <Portfolio />
             </section>
-            <section id="services" data-scroll-index={2} className="section services-section">
+            <section id="services" data-scroll-index={3} className="section services-section">
                 <Proficient />
+            </section>
+            <section id="awards" data-scroll-index={4} className="section services-section">
+                <Awards />
             </section>
         </Layout>
     );

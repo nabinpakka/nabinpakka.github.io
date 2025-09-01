@@ -1,8 +1,8 @@
 {
-  "name": "bibishan.github.io",
+  "name": "nabin.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/bibishan-pandey/bibishan-pandey.github.io",
+  "homepage": "https://github.com/nabinpakka/nabinpakka.github.io",
   "scripts": {
     "clean": "rimraf \"{node_modules,.next,.next-dev,out,.cache,.idea}\"",
     "format": "prettier --write .",

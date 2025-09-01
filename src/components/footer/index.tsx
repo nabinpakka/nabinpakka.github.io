@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="container">
                 <div className="footer-info">
                     <div className="footer-avatar">
-                        <img src="assets/img/me.png" alt="Bibishan Pandey" />
+                        <img src="assets/img/me.jpg" alt="Nabin Pakka" />
                     </div>
                     <h6>Have something on your mind? Let&apos;s team up.</h6>
                 </div>

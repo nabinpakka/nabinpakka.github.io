@@ -7,7 +7,7 @@ export default function BannerProfile() {
                 <div className="hi-icon-bottom motion-safe:animate-spin">
                     <HiIcon />
                 </div>
-                <img src="assets/img/me.png" alt="title" />
+                <img src="assets/img/me.jpg" alt="title" />
             </div>
         </div>
     );
