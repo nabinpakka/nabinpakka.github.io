@@ -20,12 +20,41 @@ export default function Portfolio() {
     }
 
     const projects = [
+
         {
-            title: 'PREFER',
-            subTitle: 'NSF funded Machine Learning research project',
-            img: 'assets/img/prefer.png',
+            title: 'Soybean Foliage Disease Classification',
+            subTitle: 'Efficient model to classify diseased soybean foliage images. ',
+            img: 'assets/img/projects/FIC.png',
             type: 'Research',
-            link: 'https://prefer-nsf.org/'
+            link: 'https://github.com/nabinpakka/DiseaseClassification/blob/paperReady'
+        },
+        {
+            title: 'Foliage Generator',
+            subTitle: 'A framework to generate diseased foliage image from single leaf images.',
+            img: 'assets/img/projects/Foliagen.png',
+            type: 'Research',
+            link: 'https://github.com/nabinpakka/FoliageGenerator'
+        },
+        {
+            title: 'Distributed Deep Learning Model Training, HadarE',
+            subTitle: 'Distributed Computing–Enhanced Online Scheduling of Deep Learning (DL) Training.',
+            img: 'assets/img/projects/HadarE.png',
+            type: 'Research',
+            link: 'https://github.com/nabinpakka/DistributedScheduler/tree/profile'
+        },
+        {
+            title: 'Knowledge Bases for News Classification',
+            subTitle: 'News classification model based on Knowledge Graph.',
+            img: 'assets/img/projects/BertGraph.png',
+            type: 'Research',
+            link: 'https://github.com/ihozh/BertGraph'
+        },
+        {
+            title: 'Intrusion Detection System',
+            subTitle: 'A machine learning reinforced network intrusion detection system.',
+            img: 'assets/img/projects/IDS.jpg',
+            type: 'Research',
+            link: 'https://github.com/nabinpakka/CICFlowMeter'
         },
         {
             title: 'Artano',

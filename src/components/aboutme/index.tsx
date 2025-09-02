@@ -35,7 +35,7 @@ export default function AboutMe() {
                                 <div className="row mb-5 pt-2">
                                     <div className="col-auto">
                                         <div className="a-count">
-                                            <span className="count">6+</span>
+                                            <span className="count">10+</span>
                                             <div className="a-count-text">
                                                 Projects <br />
                                                 Completed.
@@ -44,9 +44,9 @@ export default function AboutMe() {
                                     </div>
                                     <div className="col-auto">
                                         <div className="a-count">
-                                            <span className="count">5+</span>
+                                            <span className="count">8+</span>
                                             <div className="a-count-text">
-                                                Juniors <br /> Trained.
+                                                Juniors <br /> Mentored.
                                             </div>
                                         </div>
                                     </div>

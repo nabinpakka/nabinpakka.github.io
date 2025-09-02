@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <meta name="keywords" content="Nabin Pakka" />
-            <meta name="description" content="Spring-boot Developer | Machine Learning Engineer | Java Developer | Backend Developer | Software Developer" />
+            <meta name="description" content="Machine Learning Engineer | Spring-boot Developer | Java Developer | Backend Developer | Software Developer" />
             {/*title*/}
             <title>Nabin Pakka</title>
             {/* Favicon */}
