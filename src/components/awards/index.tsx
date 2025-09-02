@@ -23,56 +23,56 @@ export default function Awards() {
         {
             title: 'Digital Nepal Conclave 2025',
             subTitle: 'Volunteered as Event Crew',
-            img: 'assets/awards/DNC.png',
+            img: 'assets/img/awards/DNC.png',
             type: 'Volunteer',
             link: 'https://digitalconclave.org/'
         },
         {
             title: 'Academic Excellence Awards',
             subTitle: 'Two censecutive awards (2025, 2024) ',
-            img: 'assets/awards/Academic.png',
+            img: 'assets/img/awards/Academic.png',
             type: 'Award',
             link: 'https://louisiana.edu/honorsconvocation'
         },
         {
             title: 'Neural Information Processing Systems 2023',
             subTitle: 'Representing University of Louisiana at Lafayette.',
-            img: 'assets/awards/NIPs.jpg',
+            img: 'assets/img/awards/NIPs.jpg',
             type: 'Participation',
             link: 'https://neurips.cc/Conferences/2023'
         },
         {
             title: 'Robowars',
             subTitle: "Coordinator of Nepal's first Robowar.",
-            img: 'assets/awards/robowars.jpg',
+            img: 'assets/img/awards/robowars.jpg',
             type: 'Event',
             link: 'https://www.engineeringnepal.com.np/2019/01/JIGYASA-Engineering-Expo-is-being-Organized-in-Thapathali-campus.html'
         },
         {
             title: 'Robotics & Automation Center',
             subTitle: 'Executive member (2017 - 2019)',
-            img: 'assets/awards/RAC.jpg',
+            img: 'assets/img/awards/RAC.jpg',
             type: 'Organization',
             link: 'https://www.facebook.com/racthapathali/about/'
         },
         {
             title: 'Techfest, IIT Bombay',
             subTitle: 'Second runner-up, International Robotics Competition (2018)',
-            img: 'assets/awards/techfest.png',
+            img: 'assets/img/awards/techfest.png',
             type: 'Award',
             link: 'https://techfest.org/'
         },
         {
             title: 'Golden Jubilee Scholarship',
             subTitle: 'Scholarship for undergraduates, provided by Government of India based on merit. (2016 - 2020)',
-            img: 'assets/awards/Gj.jpg',
+            img: 'assets/img/awards/Gj.jpg',
             type: 'Award',
             link: 'https://www.indembkathmandu.gov.in/gjss'
         },
         {
             title: 'Mahatma Gandhi Scholarship',
             subTitle: 'Scholarship for highschoolers, provided by Government of India based on merit. (2014 - 2016)',
-            img: 'assets/awards/MG.jpg',
+            img: 'assets/img/awards/MG.jpg',
             type: 'Award',
             link: 'https://www.indembkathmandu.gov.in/mgss'
         }
